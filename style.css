@@ -1,0 +1,27 @@
+
+}
+.active {
+    background-color: grey;
+}
+.d-block {
+    max-height: 500px;
+    min-width: auto;
+}
+.fellowh3 {
+    margin-top: 5%;
+    color: grey;
+}
+.legende {
+    font-size: 0.5em;
+}
+.card-img-top
+{
+    max-height: 340px;
+    min-width: auto;
+}
+.float
+{
+    float: right;
+    max-height: 250px;
+    max-width: 170px;
+}
