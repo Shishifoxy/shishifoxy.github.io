@@ -34,7 +34,7 @@
 {
     opacity: 1;
 }
-.card-title
+.ct
 {
     z-index: 3;
     position: absolute;
@@ -44,7 +44,7 @@
     border: 2px black solid;
 background-color: white;
 }
-.card-text
+.cte
 {
     z-index: 3;
     position: absolute;
@@ -55,30 +55,30 @@ background-color: white;
     font-weight : bold;
 }
 
-.gandalf:hover .card-title {
+.gandalf:hover .ct {
     display: none;
 }
-.hobbit:hover .card-title {
+.hobbit:hover .ct {
     display: none;
 }
-.dwarf:hover .card-title {
+.dwarf:hover .ct {
     display: none;
 }
-.gandalf:hover .card-text {
+.gandalf:hover .cte {
     top: 70%;
     font-size: 150%;
     left: 35%;
     color: aliceblue;
 
 }
-.hobbit:hover .card-text {
+.hobbit:hover .cte {
     top: 70%;
     font-size: 150%;
     left: 35%;
     color: aliceblue;
 
 }
-.dwarf:hover .card-text {
+.dwarf:hover .cte {
     top: 70%;
     font-size: 150%;
     left: 35%;
