@@ -1,7 +1,68 @@
-
+@font-face {
+    font-family: "Aniron";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/anirm___.ttf");
+    src: url("./fonts/anirm___.woff");
 }
-.active {
-    background-color: grey;
+
+@font-face {
+    font-family: "Aniron Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/anirb___.ttf");
+    src: url("./fonts/anirb___.woff");
+}
+@font-face {
+    font-family: "AnironC";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/anicm___.ttf");
+}
+@font-face {
+    font-family: "AnironC Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/anicb___.ttf");
+}
+@font-face {
+    font-family: "Tengwar Annatar";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/tngan.ttf");
+    src: url("./fonts/tngan.woff");
+}
+
+@font-face {
+    font-family: "Tengwar Annatar Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/tnganb.ttf");
+    src: url("./fonts/tnganb.woff");
+}
+@font-face {
+    font-family: "Tengwar Annatar Bold Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/tnganbi.ttf");
+    src: url("./fonts/tnganbi.woff");
+}
+@font-face {
+    font-family: "Tengwar Annatar Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/tngani.ttf");
+    src: url("./fonts/tngani.woff");
+}
+@font-face {
+    font-family: "Party Business";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/partybusiness.ttf");
+}
+.navbar {
+    font-family: "Aniron";
+    font-weight: bold;
 }
 .d-block {
     max-height: 500px;
@@ -14,45 +75,44 @@
 .legende {
     font-size: 0.5em;
 }
-.card-img-top
-{
+.card-img-top {
     max-height: 340px;
     min-width: auto;
 }
-.float
-{
+.float {
     float: right;
     max-height: 250px;
     max-width: 170px;
 }
-.card-img-top 
-{
-    opacity: 0.7;
+.card-img-top {
+    opacity: 0.5;
     z-index: 1;
 }
-.card-img-top:hover
-{
+.card-img-top:hover {
     opacity: 1;
 }
-.ct
-{
+.ct {
     z-index: 3;
     position: absolute;
     top: 15%;
-    left: 20%;
-    color: orangered;
-    border: 2px black solid;
-background-color: white;
+    left: 10%;
+    color: black;
+    border: 2px white solid;
+    border-radius: 3px;
+    background-color: white;
+    font-family: "Party Business";
+    font-size: 1.7em;
+    opacity: 0.8;
+    filter: blur(0.3);
 }
-.cte
-{
+.cte {
     z-index: 3;
     position: absolute;
-    top: 50%;
-    left: 25%;
-    color: black;
-    font-size: 200%;
-    font-weight : bold;
+    top: 40%;
+    left: 32%;
+    color: white;
+    font-size: 3em;
+    font-family: "Party Business";
 }
 
 .gandalf:hover .ct {
@@ -65,23 +125,77 @@ background-color: white;
     display: none;
 }
 .gandalf:hover .cte {
-    top: 70%;
+    top: 60%;
     font-size: 150%;
     left: 35%;
     color: aliceblue;
-
+    font-size: 2em;
 }
 .hobbit:hover .cte {
-    top: 70%;
+    top: 60%;
     font-size: 150%;
     left: 35%;
     color: aliceblue;
-
+    font-size: 2em;
 }
 .dwarf:hover .cte {
-    top: 70%;
+    top: 60%;
     font-size: 150%;
     left: 35%;
     color: aliceblue;
-
+    font-size: 2em;
+}
+.fellowh3 {
+    font-family: "Aniron";
+    color: black;
+}
+.fellow3 {
+    font-family: "Aniron";
+    text-decoration: underline;
+}
+.navtop {
+    background-color: rgba(226, 95, 40, 1);
+}
+.carousel-caption {
+    padding-bottom: 10%;
+    font-family: "Party Business";
+    font-size: 3.2em;
+}
+nav .nav-link {
+    color: white;
+}
+.ij {
+    color: orangered;
+    font-family: "Tengwar Annatar";
+}
+.xs:hover {
+    color: orangered;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+}
+.xs {
+    font-family: "Aniron";
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+.symb {
+    font-family: "Tengwar Annatar";
+}
+.descrcard {
+    font-family: "Party Business";
+    color: white;
+    font-size: 1.5em;
+}
+.orange {
+    color: orangered;
+}
+.slt {
+    text-decoration: line-through orangered;
+}
+.dwarf,
+.hobbit,
+.gandalf {
+    background-color: black;
 }
