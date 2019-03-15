@@ -199,3 +199,6 @@ nav .nav-link {
 .gandalf {
     background-color: black;
 }
+.container {
+    background-image: url("./img/bg_light.png");
+}
